@@ -1,0 +1,12 @@
+create database Proyecto_gestion
+
+CREATE TABLE [dbo].[Student](
+	[StdID] [int] IDENTITY(1,1) NOT NULL,
+	[FirstName] [nvarchar](100) NOT NULL,
+	[Lastname] [nvarchar](100) NOT NULL,
+	[Feature] [nvarchar](100) NOT NULL,
+	[Level] [nvarchar](100) NOT NULL,
+	[Status] [varchar](100) NOT NULL,
+	[Commentary] [nvarchar](100) NOT NULL)
+	GO
+
